@@ -268,7 +268,8 @@
         
         @media (max-width: 767px) {
             .header-section .container,
-            .highlihts .container {
+            .highlihts .container,
+            .banner .container {
                 flex-direction: column;
                 flex-wrap: wrap;
             }
