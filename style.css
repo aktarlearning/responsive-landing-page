@@ -1,224 +1,312 @@
-    /* Common Style */
-    
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-    body {
-        padding: 0;
-        margin: 0px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        background: #FFFFFF;
-    }
-    
-    h1 {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 64px;
-        line-height: 80px;
-        color: #FFFFFF;
-    }
-    
-    .container {
-        display: flex;
-        width: 1160px;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .img-responsive {
-        max-width: 100%;
-    }
-    /* Header style */
-    
-    .header-section {
-        padding-top: 40px;
-    }
-    
-    .header-section,
-    .banner,
-    .players-section,
-    .highlihts {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #2D25A0;
-    }
-    
-    .header-container {
-        justify-content: space-between
-    }
-    
-    .header-menu {
-        display: flex;
-    }
-    
-    .header-menu ul {
-        display: flex;
-        padding-left: 0px;
-    }
-    
-    .header-menu ul li {
-        margin-right: 40px;
-        list-style: none;
-    }
-    
-    .header-menu ul li a {
-        text-decoration: none;
-        color: #fff;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        transition: color 1s;
-    }
-    
-    .header-menu ul li a:hover {
-        color: E02C6D;
-    }
-    
-    .btn a {
-        background: #E02C6D;
-        color: #fff;
-        padding: 10px 25px;
-        text-decoration: none;
-        display: inline-block;
-        transition: background-color 2s;
-    }
-    
-    .btn a:hover {
-        background-color: #10437A
-    }
-    /* Banner */
-    
-    .half-width {
-        width: 50%;
-    }
-    
-    .banner-padding-left {
-        padding-right: 110px;
-    }
-    
-    .banner h1 {
-        margin-bottom: 20px;
-    }
-    
-    .banner-padding-bottom {
-        padding-bottom: 45px;
-    }
-    /* players style */
-    
-    .players {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        width: 100%;
-    }
-    
-    .players-section {
-        background: #FFFFFF;
-        padding: 50px 0px;
-    }
-    
-    .players-section article {
-        margin: 15px;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-        padding: 15px;
-    }
-    
-    .players-section article h3 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 40px;
-        color: #18191F;
-        margin-top: 15px;
-        margin-bottom: 5px;
-    }
-    
-    .players-section article p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 26px;
-        color: #6C6C6C;
-    }
-    /* Highlihts section Style */
-    
-    .highlihts {
-        background: #FFFFFF;
-        padding: 100px 0px;
-    }
-    
-    .highlihts h2 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 60px;
-        color: #0A0826;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    
-    .highlihts p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 28px;
-        color: #6C6C6C;
-    }
-    
-    .highlihts-padding-right {
-        padding-right: 110px;
-    }
-    /* Foother Style */
-    
-    .footer {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        display: flex;
-    }
-    
-    .footer-section {
-        width: 485px;
-    }
-    
-    .ft-social-links ul {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .ft-social-links ul li {
-        list-style: none;
-        margin-right: 20px;
-    }
-    
-    .ft-social-links ul li a {
-        text-decoration: none;
-        display: block;
-    }
-    
-    .ft-social-links ul li span {
-        background: #e6e6ea;
-        border-radius: 50%;
-        padding: 9px;
-        display: block;
-        text-align: center;
-        vertical-align: middle;
-        transition: background-color 2s;
-    }
-    
-    .ft-social-links ul li a:hover span {
-        background-color: #10437A;
-        color: #fff;
-    }
-    
-    .ft-social-links ul li span i {
-        font-size: 14px;
-        color: #969BAB;
-    }
-    
-    .ft-social-links ul li a:hover span i {
-        color: #FFFFFF;
-    }
+        /* Common Style */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+        body {
+            padding: 0;
+            margin: 0px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            background: #FFFFFF;
+        }
+        
+        h1 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 80px;
+            color: #FFFFFF;
+        }
+        
+        .container {
+            display: flex;
+            width: 1160px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .img-responsive {
+            max-width: 100%;
+        }
+        /* Header style */
+        
+        .header-section {
+            padding-top: 40px;
+        }
+        
+        .header-section,
+        .banner,
+        .players-section,
+        .highlihts {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #2D25A0;
+        }
+        
+        .header-container {
+            justify-content: space-between
+        }
+        
+        .header-menu {
+            display: flex;
+        }
+        
+        .header-menu ul {
+            display: flex;
+            padding-left: 0px;
+        }
+        
+        .header-menu ul li {
+            margin-right: 40px;
+            list-style: none;
+        }
+        
+        .header-menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            transition: color 1s;
+        }
+        
+        .header-menu ul li a:hover {
+            color: E02C6D;
+        }
+        
+        .btn a {
+            background: #E02C6D;
+            color: #fff;
+            padding: 10px 25px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 2s;
+        }
+        
+        .btn a:hover {
+            background-color: #10437A
+        }
+        /* Banner */
+        
+        .half-width {
+            width: 50%;
+        }
+        
+        .banner-padding-left {
+            padding-right: 110px;
+        }
+        
+        .banner h1 {
+            margin-bottom: 20px;
+        }
+        
+        .banner-padding-bottom {
+            padding-bottom: 45px;
+        }
+        /* players style */
+        
+        .players {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+        }
+        
+        .players-section {
+            background: #FFFFFF;
+            padding: 50px 0px;
+        }
+        
+        .players-section article {
+            margin: 15px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            padding: 15px;
+        }
+        
+        .players-section article h3 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 40px;
+            color: #18191F;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        
+        .players-section article p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #6C6C6C;
+        }
+        /* Highlihts section Style */
+        
+        .highlihts {
+            background: #FFFFFF;
+            padding: 100px 0px;
+        }
+        
+        .highlihts h2 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 60px;
+            color: #0A0826;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+        .highlihts p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #6C6C6C;
+        }
+        
+        .highlihts-padding-right {
+            padding-right: 110px;
+        }
+        /* Foother Style */
+        
+        .footer {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+        }
+        
+        .footer-section {
+            width: 485px;
+            padding-top: 80px;
+            padding-bottom: 15px;
+        }
+        
+        .ft-social-links ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .ft-social-links ul li {
+            list-style: none;
+            margin-right: 18px;
+        }
+        
+        .ft-social-links ul li a {
+            text-decoration: none;
+            display: block;
+        }
+        
+        .ft-social-links ul li span {
+            background: #e6e6ea;
+            border-radius: 50%;
+            padding: 9px;
+            display: block;
+            text-align: center;
+            vertical-align: middle;
+            transition: background-color 2s;
+        }
+        
+        .ft-social-links ul li a:hover span {
+            background-color: #10437A;
+            color: #fff;
+        }
+        
+        .ft-social-links ul li span i {
+            font-size: 14px;
+            color: #969BAB;
+        }
+        
+        .ft-social-links ul li a:hover span i {
+            color: #FFFFFF;
+        }
+        
+        .footer p {
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+        }
+        /* Portrait tablet to landscape and desktop */
+        
+        @media (max-width: 979px) {
+            .container {
+                width: auto;
+            }
+            .header-container {
+                padding: 0px 15px;
+            }
+            .header-menu ul li a {
+                font-size: 14px;
+            }
+            .banner .container,
+            .highlihts .container {
+                padding: 0px 15px;
+            }
+            h1 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            .banner-padding-left {
+                padding-right: 0;
+            }
+            .players {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .highlihts-padding-right {
+                padding-right: 20px;
+            }
+            .highlihts h2 {
+                font-size: 30px;
+                line-height: normal;
+            }
+        }
+        /* Landscape phone to portrait tablet */
+        
+        @media (max-width: 767px) {
+            .header-section .container,
+            .highlihts .container {
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .half-width {
+                width: auto;
+            }
+            h1 {
+                font-size: 36px;
+                line-height: 50px;
+            }
+            .banner-padding-left {
+                padding-bottom: 50px;
+            }
+            .players {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .players-section article h3 {
+                font-size: 28px;
+                line-height: 40px;
+            }
+            .players-section article p {
+                font-size: 16px;
+                line-height: 26px;
+            }
+            .highlihts {
+                padding: 0;
+            }
+            .highlihts .half-width:first-child {
+                margin-bottom: 25px;
+            }
+            .footer-section {
+                width: auto;
+                padding: 0px 15px;
+            }
+            .header-section {
+                justify-content: flex-end;
+            }
+            .header-menu {
+                display: none;
+            }
+        }
